@@ -25,6 +25,7 @@ title: ""
 </div>
 
 
+<hr style="border: 1px solid #ccc; margin: 20px 0;">
 
 
 <h2>Projects </h2>
