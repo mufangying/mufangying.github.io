@@ -18,8 +18,8 @@ title: ""
     
     <p>My current research interests are:</p>
   <ul>
-    <li>Sequential inference: developing methods for real-time decision-making and predictions based on evolving data streams.</li>
-    <li>Distribution-free uncertainty quantification: developing methods to assess uncertainty without strict distributional assumptions.</li>
+    <li>Sequential Inference  </li>
+    <li>Distribution-free Uncertainty Quantification</li>
   </ul>
   </div>
 </div>
