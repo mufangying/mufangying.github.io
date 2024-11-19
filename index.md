@@ -12,15 +12,15 @@ title: ""
   <!-- Text on the right -->
   <div>
     <p>
-      I am a fifth-year PhD student in the Department of Statistics at Rutgers University - New Brunswick.
-    </p>
-    <p>
-      I am fortunate to work with my amazing advisors Prof. Ying Hung and Prof. Koulik Khamaru, 
+      I am a fifth-year PhD student in the Department of Statistics at Rutgers University - New Brunswick. I am fortunate to work with my amazing advisors Prof. Ying Hung and Prof. Koulik Khamaru, 
       and I have also had the privilege of working with Prof. Cunhui Zhang and Prof. Wenge Guo.
     </p>
-    <p>
-      My current research interests are sequential inference and distribution-free uncertainty quantification.
-    </p>
+    
+    <p>My current research interests are:</p>
+  <ul>
+    <li>Sequential inference: developing methods for real-time decision-making and predictions based on evolving data streams.</li>
+    <li>Distribution-free uncertainty quantification: developing methods to assess uncertainty without strict distributional assumptions.</li>
+  </ul>
   </div>
 </div>
 
