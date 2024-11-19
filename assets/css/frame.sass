@@ -1,41 +1,27 @@
 ---
 ---
 
-@import 'index', 'font', 'basic', 'layout', 'classes';
+@import index, font, basic, layout, classes
 
-$dark-blue: #1c3c56;
-$light: #ffffff; // Define a light color for text or elements
+html
+  background: lighten($dark, 70%)
+  padding: 0 calc(38% - 22em)
 
-html {
-  background: lighten($dark-blue, 70%);
-  padding: 0 calc(38% - 22em);
-}
+body
+  box-shadow: 0 0 .3em lighten($dark, 65%)
 
-body {
-  box-shadow: 0 0 .3em lighten($dark-blue, 65%);
-}
+body > header, body > footer
+  background: lighten($dark, 5%)
+  color: $light
 
-body > header, body > footer {
-  background: lighten($dark-blue, 5%);
-  color: $light; // Use the light color defined
-}
+@media (min-width: 32em)
+  body > header, body > article, body > footer
+    padding: 1.75em calc(22% - 6em)
 
-@media (min-width: 32em) {
-  body > header, body > article, body > footer {
-    padding: 1.75em calc(22% - 6em);
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    background: darken($dark-blue, 4%);
-  }
-
-  body > header, body > footer {
-    background: $dark-blue;
-  }
-
-  body, body > header, body > footer {
-    box-shadow: 0 0 0 1px lighten($dark-blue, 8%);
-  }
-}
+@media (prefers-color-scheme: dark)
+  html
+    background: darken($dark, 4%)
+  body > header, body > footer
+    background: $dark
+  body, body > header, body > footer
+    box-shadow: 0 0 0 1px lighten($dark, 8%)
