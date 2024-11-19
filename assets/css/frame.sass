@@ -2,26 +2,44 @@
 ---
 
 @import index, font, basic, layout, classes
+  
+$dark-blue: #1c3c56;
 
-html
-  background: lighten($dark, 70%)
-  padding: 0 calc(38% - 22em)
+// Define light blue and dark shades
+$light-blue: #a7c7e7;  // Light blue color for backgrounds and text highlights
+$dark-blue: #1c3c56;   // Dark blue color for primary dark elements (like the header/footer)
 
-body
-  box-shadow: 0 0 .3em lighten($dark, 65%)
+// General styles
+html {
+  background: lighten($dark-blue, 70%);  // Lighten dark blue for the page background
+  padding: 0 calc(38% - 22em);  // Adjust the page padding
+}
 
-body > header, body > footer
-  background: lighten($dark, 5%)
-  color: $light
+body {
+  box-shadow: 0 0 .3em lighten($dark-blue, 65%);  // Lighten dark blue for box shadow
+}
 
-@media (min-width: 32em)
-  body > header, body > article, body > footer
-    padding: 1.75em calc(22% - 6em)
+body > header, body > footer {
+  background: lighten($dark-blue, 5%);  // Light blue background for header and footer
+  color: $light-blue;  // Use light blue text color
+}
 
-@media (prefers-color-scheme: dark)
-  html
-    background: darken($dark, 4%)
-  body > header, body > footer
-    background: $dark
-  body, body > header, body > footer
-    box-shadow: 0 0 0 1px lighten($dark, 8%)
+@media (min-width: 32em) {
+  body > header, body > article, body > footer {
+    padding: 1.75em calc(22% - 6em);  // Adjust padding for larger screens
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    background: darken($dark-blue, 4%);  // Darken dark blue for dark mode background
+  }
+
+  body > header, body > footer {
+    background: $dark-blue;  // Dark blue background in dark mode
+  }
+
+  body, body > header, body > footer {
+    box-shadow: 0 0 0 1px lighten($dark-blue, 8%);  // Lighten box shadow in dark mode
+  }
+}
