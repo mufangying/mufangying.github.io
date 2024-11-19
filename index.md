@@ -28,7 +28,7 @@ My current research interests are sequential inference and distribution-free unc
 
 <ul>
 <li><p> <a href="https://arxiv.org/abs/2405.06479">  Informativeness of Weighted Conformal Prediction</a>
-<br>  Mufang Ying, Wenge Guo, Koulik Khamaru, and Ying Hung
+<br>  Mufang Ying, Wenge Guo, Koulik Khamaru and Ying Hung
 <a href="https://github.com/mufangying/Informativeness-of-WCP">  [Code] </a> 
 </p>
 </li>
@@ -37,7 +37,7 @@ My current research interests are sequential inference and distribution-free unc
 
 <ul>
 <li><p>  <a href="https://neurips.cc/virtual/2023/poster/70157">  Adaptive Linear Estimating Equations</a>
-<br>  Mufang Ying,  Koulik Khamaru, and Cun-Hui Zhang
+<br>  Mufang Ying,  Koulik Khamaru and Cun-Hui Zhang
 <a href="https://github.com/mufangying/ALEE">  [Code] </a> 
 </p>
 </li>
@@ -45,7 +45,7 @@ My current research interests are sequential inference and distribution-free unc
 
 <ul>
 <li><p> <a href="https://neurips.cc/virtual/2023/poster/69888">  Statistical Limits of Adaptive Linear Models: Low-Dimensional Estimation and Inference</a>
-<br>  Licong Lin, Mufang Ying, Suvrojit Ghosh, Koulik Khamaru, and Cun-Hui Zhang
+<br>  Licong Lin, Mufang Ying, Suvrojit Ghosh, Koulik Khamaru and Cun-Hui Zhang
 <a href="https://github.com/licong-lin/low-dim-debias">  [Code] </a> 
 </p>
 </li>
