@@ -16,14 +16,16 @@ show_sidebar: false        # show a sidebar instead of the usual header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "index.html", title: "Home Change", icon: home}
-  - {file: "README.md", title: "About me", icon: address-card}
+  - {title: "About me", file: "README.md", icon: address-card}
+  - {title: "Linkedin", url: "https://www.linkedin.com/in/david-ying-statistics/"}
+  - { title: "Resume", file: "Mufang_CV.pdf", icon: home}
 
+ 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:my426@scarletmail.rutgers.edu"}
   - {title: Github, icon: github, url: "https://github.com/mufangying"}
-  - {title: Linkedin, icon: linkedin, url = "https://www.linkedin.com/in/david-ying-statistics/"}
-
+  - {title: Linkedin, icon: linkedin, url: "https://www.linkedin.com/in/david-ying-statistics/"}
+  
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
 #  isso_domain: ""         # see https://posativ.org/isso/
