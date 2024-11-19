@@ -4,14 +4,20 @@ title: ""
 ---
 
 
-<h2>About me </h2>
+<div style="display: flex; align-items: center; margin-bottom: 20px;">
+  <img src="a.JPG" alt="Photo of Mufang Ying" style="width: 150px; height: 150px; border-radius: 50%; margin-right: 20px;">
+  <div>
+    <h2>About me</h2>
+    <p>I am a fifth-year PhD student in the Department of Statistics at Rutgers University - New Brunswick.</p>
+    <p>
+      I am fortunate to work with my amazing advisors Prof. Ying Hung and Prof. Koulik Khamaru, 
+      and I have also had the privilege of working with Prof. Cunhui Zhang and Prof. Wenge Guo.
+    </p>
+    <p>My current research interests are sequential inference and distribution-free uncertainty quantification.</p>
+  </div>
+</div>
 
-I am a fifth-year PhD student in the Department of Statistics at Rutgers University - New Brunswick. 
 
-
-I am fortunate to work with my amazing advisors Prof. Ying Hung and Prof. Koulik Khamaru, and I have also had the privilege of working with Prof. Cunhui Zhang and Prof. Wenge Guo.
-
-My current research interests are sequential inference and distribution-free uncertainty quantification.
 
 <h2>Projects </h2>
 
