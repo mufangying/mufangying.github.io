@@ -4,6 +4,13 @@ title: "Blog"
 ---
 
 
+{% if site.show_excerpts %}
+  {% include home.html %}
+{% else %}
+  {% include archive.html title="Posts" %}
+{% endif %}
+
+
 <h2>About me </h2>
 
 I am a fifth-year PhD student in the Department of Statistics at Rutgers University - New Brunswick. 
