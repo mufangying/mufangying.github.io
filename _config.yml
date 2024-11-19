@@ -17,10 +17,8 @@ minimal: false             # use a dark header
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {title: "Home", file: "aboutme.md"}
-  - {title: "Linkedin", url: "https://www.linkedin.com/in/david-ying-statistics/"}
-  - { title: "Resume", file: "Mufang_CV.pdf"}
+  - { title: "About", file: "Mufang_CV.pdf"}
 
- 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:my426@scarletmail.rutgers.edu"}
   - {title: Github, icon: github, url: "https://github.com/mufangying"}
