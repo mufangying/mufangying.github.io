@@ -5,8 +5,8 @@ title: ""
 
 
 <div style="display: flex; align-items: center; margin-bottom: 20px;">
-  <img src="a.JPG" alt="Photo of Mufang Ying" style="width: 150px; height: 150px; border-radius: 50%; margin-right: 20px;">
-  <div>
+  <img src="a.JPG" alt="Photo of Mufang Ying" style="width: 300px; height: 300px; border-radius: 50%; margin-right: 20px;">
+  <div
     <h2>About me</h2>
     <p>I am a fifth-year PhD student in the Department of Statistics at Rutgers University - New Brunswick.</p>
     <p>
