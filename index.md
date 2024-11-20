@@ -16,7 +16,8 @@ title: ""
       and I have also had the privilege of working with Prof. Cunhui Zhang and Prof. Wenge Guo.
     </p>
     
-
+  </div>
+</div>
 
 
 <hr style="border: 1px solid #ccc; margin: 20px 0;">
