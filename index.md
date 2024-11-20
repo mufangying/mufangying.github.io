@@ -16,13 +16,7 @@ title: ""
       and I have also had the privilege of working with Prof. Cunhui Zhang and Prof. Wenge Guo.
     </p>
     
-    <p>My current research interests are:</p>
-  <ul>
-    <li>Sequential Inference  </li>
-    <li>Distribution-free Uncertainty Quantification</li>
-  </ul>
-  </div>
-</div>
+
 
 
 <hr style="border: 1px solid #ccc; margin: 20px 0;">
