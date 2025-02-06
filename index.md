@@ -29,7 +29,7 @@ title: ""
 <ul>
 <li><p> <a href="https://arxiv.org/abs/2404.17769"> Two-stage Risk Control with Application to Ranked Retrieval </a>
 <br>  Yunpeng Xu, Mufang Ying, Wenge Guo, Zhi Wei
-<a href="https://github.com/mufangying/Ranked-Retrieval">
+<a href="https://github.com/mufangying/Ranked-Retrieval"> [Code] </a>
 </p>
 </li>
 </ul>
